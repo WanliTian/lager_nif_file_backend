@@ -1,0 +1,10 @@
+{application,blcs_log,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib,lager]},
+              {mod,{blcs_log_app,[]}},
+              {env,[]},
+              {modules,[blcs_file_backend,blcs_log_app,blcs_log_nifs,
+                        blcs_log_sup,blcs_util,log_process,log_process_sup,
+                        log_utils,simulator]}]}.

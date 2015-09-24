@@ -1,0 +1,13 @@
+{application, blcs_log,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  lager
+                 ]},
+  {mod, { blcs_log_app, []}},
+  {env, []}
+ ]}.
